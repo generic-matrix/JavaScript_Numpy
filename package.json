@@ -1,5 +1,5 @@
 {
-  "name": "jsnumpy",
+  "name": "@kaustubhbx/jsnumpy",
   "version": "1.1.10",
   "description": "It provides equivalent of Numpy in JavaScript. All functions works on ndArray also.",
   "main": "NumpyJS.js",
@@ -27,7 +27,7 @@
   "author": "Nikhil Ashodriya",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/NikhilAshodariya/JavaScript_Numpy/issues"
+    "url": "https://github.com/generic-matrix/JavaScript_Numpy/issues"
   },
-  "homepage": "https://github.com/NikhilAshodariya/JavaScript_Numpy#readme"
+  "homepage": "https://github.com/generic-matrix/JavaScript_Numpy#readme"
 }
