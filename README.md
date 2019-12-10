@@ -33,7 +33,7 @@ $ npm test
 ### Array Creation
 
 ```javascript
-> var nj = require('jsnumpy');
+> var nj = require('@kaustubhbx/jsnumpy');
 
 > var a = nj.fillWithNumber([2,3,4],5);
 > a
