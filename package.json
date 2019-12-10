@@ -1,7 +1,7 @@
 {
   "name": "@kaustubhbx/jsnumpy",
   "version": "1.1.10",
-  "description": "It provides equivalent of Numpy in JavaScript. All functions works on ndArray also.",
+  "description": "It provides equivalent of Numpy in JavaScript.Optimized for generics.js ",
   "main": "NumpyJS.js",
   "dependencies": {
     "matrix_deep_clone": "^1.0.2"
@@ -22,7 +22,8 @@
     "NumpyJS",
     "Numpy",
     "numpy",
-    "Matrix"
+    "Matrix",
+    "generics.js"
   ],
   "author": "Nikhil Ashodriya",
   "license": "ISC",
