@@ -4,7 +4,11 @@ var multiplier = (
   function() {
     function multiplyFunction(a, b, replace) {
       function inner_multiplyFunction(a, b) {
-        return a * b;
+        if(typeof(b)=="object"){
+          return a* b[0];
+        }else{
+          return a * b;
+        }
       }
       return oper.execute(a, b, replace, inner_multiplyFunction);
     }
