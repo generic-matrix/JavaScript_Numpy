@@ -11,7 +11,7 @@ Node.js, matrix_deep_clone
 First, head over to nodejs.org and install Node.js.
 
 ```
-$ npm install jsnumpy
+$ npm install @kaustubhbx/jsnumpy
 ```
 
 ## Running the tests
