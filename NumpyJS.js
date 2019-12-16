@@ -14,6 +14,7 @@ var root = require('./root.js');
 var zeroes = require('./zeroes.js');
 var hstack = require('./hstack.js');
 var dot = require('./dot.js');
+var activation = require('./activation.js');
 var NumericalRange = require("./NumericalRange.js");
 
 var NumpyJS = (
@@ -22,6 +23,7 @@ var NumpyJS = (
       zeroes: zeroes,
       hstack: hstack,
       dot: dot,
+      activation: activation,
       add: adder.add,
       subtract: subtractor.subtract,
       divide: divider.divide,
