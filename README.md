@@ -1,6 +1,6 @@
 # JavaScript Numpy
 
-This project aims at providing equivalent of Numpy in JavaScript.
+This project aims at providing equivalent of Numpy in JavaScript (A fork of https://github.com/NikhilAshodariya/JavaScript_Numpy)
 Optimized for generics.js 
 https://www.npmjs.com/package/generics.js
 
