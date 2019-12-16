@@ -66,6 +66,16 @@ $ npm test
 [[0,0,0],[0,0,0],[0,0,0]]
 ```
 
+**Note**: The Tanh,sigmoid,sigmoid derivative and tanh derivative activation function has been added.
+
+Example to use: 
+```javascript
+> var mat = nj.activation.tanh([1,2,2])
+> mat
+[ 0.7615941559557646, 0.9640275800758169, 0.9640275800758169 ]
+```
+
+
 **Note**: The fillWithNumber take two parameter the first parameter is the dimension of the required matrix in the above example the function creates a 3D matrix with three rows and four columns it is similar to Numpy function of Python. The default parameter to fill in array is zero. Here number 5 is used to fill the array.
 
 ```javascript
