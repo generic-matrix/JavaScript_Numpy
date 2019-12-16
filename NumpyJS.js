@@ -11,6 +11,7 @@ var trigoFunctions = require('./TrignometricFunctions.js');
 var complexMatrixOperations = require('./ComplexMatrixOperation.js');
 var logarithm = require('./Log.js');
 var root = require('./root.js');
+var zeroes = require('./zeroes.js');
 var NumericalRange = require("./NumericalRange.js");
 
 var NumpyJS = (
