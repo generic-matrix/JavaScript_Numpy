@@ -1,5 +1,4 @@
-var zeroes=function(){
-  function zeroes(shape=null){
+var zeroes=function(shape=null){
       if(shape==null || shape.length==0){
         return [];
       }else{
@@ -8,7 +7,7 @@ var zeroes=function(){
         }else{
           if(shape.length==2){
             let mat=new Array(shape[0]);
-            for(let i=0;i<shape[1].length;i++){
+            for(let i=0;i<shape[1];i++){
                 mat[i]=new Array(shape[1]).fill(0);
             }
             return mat;
@@ -17,6 +16,5 @@ var zeroes=function(){
           }
         }
       }
-  }
 }
-module.exports = zeroes();
+module.exports = zeroes;
