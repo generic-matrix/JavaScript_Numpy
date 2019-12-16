@@ -1,8 +1,7 @@
 let complexMatrixOperations = require('./ComplexMatrixOperation.js');
 
-let hstack=function(){
-    function hstack(arr1=null,arr2=null){
-        if(arr1!=null && arr2!=null && arr1.length!=0 && arr2.length!=0){
+let hstack=function hstack(arr1=null,arr2=null){
+        if((arr1!=null || arr2!=null) && (arr1.length!=0 || arr2.length!=0)){
             if(typeof(arr1[0])=="object" && typeof(arr2[0])=="object"){
                 //2D array
                 let mat=[];
@@ -15,9 +14,7 @@ let hstack=function(){
             }else{
                 throw new Error("Hybrid dimensions are currently not supported. ");
             }
-        }else{
-            throw new Error("Invalid NULL/Empty array given");
         }
-    }
 }
-module.exports = hstack();
+
+module.exports = hstack;
