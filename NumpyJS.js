@@ -12,15 +12,16 @@ var complexMatrixOperations = require('./ComplexMatrixOperation.js');
 var logarithm = require('./Log.js');
 var root = require('./root.js');
 var zeroes = require('./zeroes.js');
-var hstack = require('./hstsck.js');
+var hstack = require('./hstack.js');
+var dot = require('./dot.js');
 var NumericalRange = require("./NumericalRange.js");
 
 var NumpyJS = (
   function() {
     return {
-      zeroes: zeroes.zeroes,
-      hstack: hstack.hstack,
-      dot: dot.dot,
+      zeroes: zeroes,
+      hstack: hstack,
+      dot: dot,
       add: adder.add,
       subtract: subtractor.subtract,
       divide: divider.divide,
