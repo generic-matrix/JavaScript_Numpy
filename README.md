@@ -56,12 +56,12 @@ $ npm test
 **Note**: The zeroes will create an  array as needed with zeroes.
 
 ```javascript
-> var dim = nj.zeroes(3);
+> var dim = nj.zeroes([3]);
 > dim
 [0,0,0]
 ```
 ```javascript
-> var dim = nj.zeroes(3,3);
+> var dim = nj.zeroes([3,3]);
 > dim
 [[0,0,0],[0,0,0],[0,0,0]]
 ```
