@@ -1,5 +1,5 @@
 {
-  "name": "numpy-js",
+  "name": "js-num",
   "version": "1.1.10",
   "description": "It provides equivalent of Numpy in JavaScript.Optimized for generics.js ",
   "main": "NumpyJS.js",
