@@ -53,6 +53,19 @@ $ npm test
 ]
 ```
 
+**Note**: The zeroes will create an  array as needed with zeroes.
+
+```javascript
+> var dim = nj.zeroes(3);
+> dim
+[0,0,0]
+```
+```javascript
+> var dim = nj.zeroes(3,3);
+> dim
+[[0,0,0],[0,0,0],[0,0,0]]
+```
+
 **Note**: The fillWithNumber take two parameter the first parameter is the dimension of the required matrix in the above example the function creates a 3D matrix with three rows and four columns it is similar to Numpy function of Python. The default parameter to fill in array is zero. Here number 5 is used to fill the array.
 
 ```javascript
