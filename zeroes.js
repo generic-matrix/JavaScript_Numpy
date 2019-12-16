@@ -9,7 +9,7 @@ var zeroes=function(){
           if(shape.length==2){
             let mat=new Array(shape[0]);
             for(let i=0;i<shape[1].length;i++){
-                mat[i]=new Array(dimension2).fill(0);
+                mat[i]=new Array(shape[1]).fill(0);
             }
             return mat;
           }else{
