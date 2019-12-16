@@ -17,6 +17,7 @@ var NumericalRange = require("./NumericalRange.js");
 var NumpyJS = (
   function() {
     return {
+      zeroes: zeroes.zeroes,
       add: adder.add,
       subtract: subtractor.subtract,
       divide: divider.divide,
