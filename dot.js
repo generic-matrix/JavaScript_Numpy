@@ -1,7 +1,6 @@
 var matrixMultiply = require('./MatrixMultiply.js');
 
-var dot=function(){
-    function dot(A,B){
+var dot=function(A,B){
         if((A!=null || B!=null) && (A.length==0 || B.length==0)){
             throw new Error("Invalid inputs.");
         }else if(typeof(A[0])=="number" && typeof(B[0])=="number"){
@@ -15,6 +14,5 @@ var dot=function(){
         }else{
             return matrixMultiply.matrixMultiply(A,B);
         }
-    }
 }
-module.exports = dot();
+module.exports = dot;
