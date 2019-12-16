@@ -20,6 +20,7 @@ var NumpyJS = (
     return {
       zeroes: zeroes.zeroes,
       hstack: hstack.hstack,
+      dot: dot.dot,
       add: adder.add,
       subtract: subtractor.subtract,
       divide: divider.divide,
