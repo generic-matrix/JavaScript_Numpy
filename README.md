@@ -89,6 +89,14 @@ $ npm test
 ]
 ```
 
+**NOTE**: The function dot returns dot product if it's A 2D matrix then matrix multiplication.
+
+```javascript
+> var A = nj.dot([1,2,3],[4,5,6]);
+> ans
+32
+```
+
 **Note**: The function `generateRandomNumbers` provides a matrix of random numbers depending on the input dimension which is the first parameter of the function the default value for minRange is zero and maxRange is totalNumber. It can also generate an ndArray.
 
 ### Deep cloning an array
